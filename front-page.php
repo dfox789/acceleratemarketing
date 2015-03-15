@@ -25,7 +25,7 @@ get_header(); ?>
 	</div><!-- .container -->
 </section><!-- .home-page -->
 
-<section class = "featured-work">
+<section class = "featured-work"><!--case studies featured work-->
 	<div class="site-content">
 		<h4>Featured Work</h4>
 		
@@ -40,18 +40,16 @@ get_header(); ?>
 		  ?>
 		 
 		  <li class="individual-featured-work">
-		  <figure>
+		   <figure>
 			  <?php echo wp_get_attachment_image($image_1,
 			  $size);?>
 			  <h3><a href="<?php the_permalink(); ?>"<?php the_title(); ?></a></h3>  
-			   
-		  </figure> 
+		   </figure> 
+		 
 		 <?php the_title(); ?>
 		 
-		 
-		  	</li>		
+		  </li>		
 		  				
-
 	  			<?php endwhile; // end of the loop. ?>
 	  			<?php wp_reset_query(); // resets the altered query back to the original ?>
 		</ul>

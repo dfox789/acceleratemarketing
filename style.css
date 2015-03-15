@@ -78,13 +78,18 @@ div.case-study-images{
 
 div.case-study-images img{
 	display: block;
-	margin-bottom:50px;
+	
 	border:1px solid #dddddd;
 }
+/*home page */
 .individual-featured-work{
 	list-style-type:none;
-	float: right;
+	float:left;
 	padding:5px;
 	
 }
+section.recent-posts{
+	margin-top:300px;
+}
+
 		 

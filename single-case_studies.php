@@ -24,6 +24,7 @@ get_header(); ?>
 				$image_1 = get_field('image_1');
 				$image_2 = get_field('image_2');
 				$image_3 = get_field('image_3');
+				
 				$size = "full";				
 					?>
 				
@@ -35,7 +36,7 @@ get_header(); ?>
 						
 					<?php the_content(); ?>
 				
-					<p><strong><a href="<?php echo $link; ?>">Site Link</a></srtrong><p>
+					<p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p>
 				</aside>
 				<div class="case-study-images">
 					<?php if($image_1){ ?>

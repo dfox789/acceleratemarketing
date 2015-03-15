@@ -14,7 +14,8 @@
  * @since Twenty Fourteen 1.0
  */
 
-get_header(); ?> 
+get_header(); 
+}?> 
 
 <pre><?php print_r($wp_query->posts); exit; ?></pre>
 	
@@ -24,7 +25,7 @@ get_header(); ?>
 	<section class="blog-page">
 		<div class="site-content">
 			<div class="main-content">
-				<?php query_posts( 'cat=3&year=2004' ); ?>
+				<?php query_posts( 'cat=3&year=2004'); ?>
 				<?php
 			if ( have_posts() ) :
 				// Start the Loop.
